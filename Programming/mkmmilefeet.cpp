@@ -9,7 +9,11 @@ int main(){
     double km, m, miles, feet;
     int choice;
 
-    cout << "Please choose an option: " << endl;
+
+
+    while (true)
+    {
+     cout << endl << "Please choose an option: " << endl;
     cout << "1. from Km" << endl;
     cout << "2. from M " << endl;
     cin >> choice;
@@ -32,14 +36,16 @@ int main(){
         case 1:
             /* code */
          miles = km * 0.621371;
+        cout << "The distance in miles is " << miles << " miles." << endl ;
 
             
-            break;
+           break;
 
          case 2:
             /* code */
 
             feet = km * 3280.84;
+             cout << "The distance in Feet is " << feet << " Feet." << endl;
 
             break;
         
@@ -69,14 +75,16 @@ int main(){
         case 1:
             /* code */
          miles = m * 0.000621371;
+          cout << "The distance in Feet is " << miles << "miles." << endl;
 
             
-            break;
+           break;
 
          case 2:
             /* code */
 
             feet = m * 3.280841;
+            cout << "The distance in Feet is " << feet << "Feet." << endl;;
 
             break;
         
@@ -98,9 +106,10 @@ int main(){
     
         default:
         cout << "Invalid input, Please try again." << endl;
-       return 0;
+       break;
     }
-
+    }
+    
     return 0;
 
 
