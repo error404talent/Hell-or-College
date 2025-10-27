@@ -8,7 +8,7 @@ int main(){
 
     double kilometres, miles;
 
-    cout << "Please in distance(KM):  ";
+    cout << "Please input distance(KM):  ";
     cin >> kilometres;
 
     miles = kilometres * 0.621371;
