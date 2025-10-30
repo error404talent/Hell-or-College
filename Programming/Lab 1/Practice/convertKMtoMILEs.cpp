@@ -11,9 +11,9 @@ int main(){
     cout << "Please input distance(KM):  ";
     cin >> kilometres;
 
-    miles = kilometres * 0.621371;
+     miles = kilometres * 0.621371;
 
-    cout << kilometres << "Kilometres = "  << miles << "miles"  << endl;
+    cout << kilometres << "Kilometres = "  << miles << " miles"  << endl;
 
     return 0;
 
